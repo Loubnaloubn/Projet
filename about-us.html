@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym | Healty</title>
+    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+    <body>
+     <section class="sup-header">
+           <nav>           
+                 <a href="index.html">
+                 <img src="logo.png" ></a>
+                <div class="nav-links" id="navLinks" >
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                     <ul>
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="./about-us.html">About</a></li>
+                      <li><a href="./classes.html">classes</a></li>
+                      <li><a href="./Contact.html">Contact</a></li>
+                      </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav> <br><br><br>
+            <h1> ABOUT US</h1>
+      </section>
+     <section class="about-us">
+      <section class="row">
+          <div class="about-col">
+              <h1>WHAT WE HAVE DONE</h1>
+              <p>Êtes-vous à la recherche d’un endroit luxueux et chaleureux à prix bas ?  <br> club près de chez vous et accessible à tout moment où vous pouvez atteindre vos objectifs ? </p>
+              <pre>
+            Body building --> 80%
+            Training   --> 85%
+            Fitness    --> 75%
+            </pre>
+              <a href=""class="hero-btn black-btn">EXPLORE NOW</a>
+          </div>
+          <div class="about-col">
+                <img src="babanna2.jpg" alt="">
+            
+        </div>
+      </section>
+    </section>
+<!--footer-->
+<section class="footer">
+  <h4>Get Connected with Gym</h4>
+  <p>Leader de la remise en forme au Maroc ! Des machines dernier cris, les meilleurs coachs à votre écoute et un rapport qualité prix inégalé.</p>
+  <div class="icons">
+    <i class="fa-brands fa-facebook-square"></i>
+    <i class="fa-brands fa-instagram-square"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-skype"></i>
+    <i class="fa-brands fa-youtube"></i>
+  </div>
+  <p>made <i class="fa fa-heart-o"></i>by- Loubna Gharghouch</p>
+</section> 
+      <!---javaScript for togger menu--->
+      <script>
+          var navlinks=document.getElementById("navlinks");
+          function showMenu(){
+            navlinks.style.right="0";
+          }
+          function hideMenu(){
+            navlinks.style.right="-200px";
+          }
+      </script>
+    </body>
+</html>

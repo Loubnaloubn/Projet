@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym | Healty</title>
+    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+    <body>
+     <section class="sup-header">
+           <nav>           
+                 <a href="index.html">
+                 <img src="logo.png" ></a>
+                <div class="nav-links" id="navLinks" >
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                     <ul>
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="./about-us.html">About</a></li>
+                      <li><a href="./classes.html">classes</a></li>
+                      <li><a href="./Contact.html">Contact</a></li>
+                      </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav> <br><br><br>
+            <h1> CLASSES </h1>
+     </section>
+     <!--Classes -->
+      <section class="blog-content" style="position:relative;">
+        <div class="row">
+          <div class="blog-left">
+            <img src="gallery-3.jpg" style="padding: 10px; width: 200px; height: 200px;">
+            <img src="gallery-4.jpg" style="padding: 10px; width: 200px; height: 200px;">
+            <img src="gallery-5.jpg" style="padding: 10px; width: 200px; height: 200px;">
+            <br><br>
+          </div>
+          <div class="blog-right">
+            <h3>CATEGORIES</h3>
+            <div>
+              <span>Yoga</span>
+              <span>12</span>
+            </div>
+            <div>
+              <span>Runing</span>
+              <span>32</span>
+            </div>
+            <div>
+              <span>Weightloss</span>
+              <span>86</span>
+            </div>
+            <div>
+              <span>CARDIO</span>
+              <span>25</span>
+            </div>
+            <div>
+              <span>Body buiding</span>
+              <span>36</span>
+            </div>
+            <div>
+              <span>Nutrition</span>
+              <span>15</span>
+            </div>
+          </div>
+       </div>
+      </section>
+<section class="footer">
+  <h4>Get Connected with Gym</h4>
+  <p>Leader de la remise en forme au Maroc ! Des machines dernier cris, les meilleurs coachs à votre écoute et un rapport qualité prix inégalé.</p>
+  <div class="icons">
+    <i class="fa-brands fa-facebook-square"></i>
+    <i class="fa-brands fa-instagram-square"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-skype"></i>
+    <i class="fa-brands fa-youtube"></i>
+  </div>
+  <p>made  <i class="fa fa-heart-o"></i>by- Loubna Gharghouch</p>
+</section> 
+      <!---javaScript for togger menu--->
+      <script>
+          var navlinks=document.getElementById("navlinks");
+          function showMenu(){
+            navlinks.style.right="0";
+          }
+          function hideMenu(){
+            navlinks.style.right="-200px";
+          }
+      </script>
+    </body>
+</html>
